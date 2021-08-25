@@ -112,6 +112,6 @@ class Tasks extends Model
     }
 
     public function tasklist(){
-        return $this->belongsTo(‘App\User’);
+        return $this->belongsTo('App\User');
     }
 }
